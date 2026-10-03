@@ -7,7 +7,7 @@ Página estática em francês, com todas as seções visuais, galeria de dez amo
 - Preço exibido na página: **17,97 €**. O valor cobrado no checkout é definido na oferta da Hotmart.
 - Os dois botões de compra levam diretamente à Hotmart, inclusive com JavaScript desativado. O botão inicial navega até a oferta.
 - As 28 imagens e fontes estão em `dist/assets/`. O vídeo continua usando a URL pública da referência.
-- Textos, avaliações e números da referência continuam identificados como conteúdo de teste. Não há notificações falsas de compras nem contador aleatório de visitantes.
+- Depoimentos e nota foram mantidos conforme a confirmação do usuário. A página não exibe contadores de visitantes, prazo artificial ou rótulos de demonstração. Preço, checkout e Pixel permanecem configurados.
 
 ## Enviar para GitHub
 

@@ -44,7 +44,6 @@
   } catch {}
   document.querySelectorAll('[data-checkout]').forEach(link => {
     if (checkoutUrl) link.href = checkoutUrl;
-    else link.addEventListener('click', e => { e.preventDefault(); openModal(document.getElementById('checkout-demo')); });
   });
   const track = document.getElementById('fl-preview-track');
   const slides = [...track.querySelectorAll('.fl-preview-slide')];
